@@ -1,0 +1,6 @@
+.containerAbout{
+    min-height: calc(100vh - 8rem);
+    text-align: center;
+    padding: 40px;
+  }
+  

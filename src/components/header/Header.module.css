@@ -1,0 +1,68 @@
+.principal {
+  background-color: rgb(233, 20, 180);
+  box-shadow: 0 2px 4px rgba(250, 23, 174, 0.815);
+  color: aliceblue;
+}
+.header {
+  width: 100%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: rgb(253, 250, 250);
+}
+
+.menuList {
+  display: flex;
+  
+}
+.menuItem {
+  padding: 14px;
+
+}
+.cartIcon{
+  position: relative;
+}
+
+.quantityProducts{
+  background-color: rgb(240, 62, 225);
+  border-radius: 25px;
+  color: rgb(8, 8, 8);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 1px 5px;
+  position: absolute;
+  top: -5px;
+  right: -10px;
+}
+
+@media (max-width: 728px) {
+    .menu{
+        position: fixed;
+        top: 4rem;
+        left: -100%;
+        width: 70%;
+        height: 100vh;
+        background-color:rgb(233, 20, 180);
+        transition: .5s;
+    }
+    .menuList {
+        flex-direction: column;
+    }
+    .menuItem {
+        margin: 25px;
+    }
+    .show{
+        left: 0;
+    }
+}
+@media (min-width: 728px) {
+  .toogle {
+    display: none;
+  }
+}

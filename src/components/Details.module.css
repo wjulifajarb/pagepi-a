@@ -1,0 +1,120 @@
+.containerDetails{
+  min-height: calc(100vh - 8rem);
+  display: flex;
+  align-items: center;
+  background-color: black;
+}
+.details {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  color: rgb(253, 251, 251);
+}
+.imgContainer {
+  max-width: 400px;
+  width: 100%;
+  height: 450px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+  border-color: rgb(233, 20, 180);;
+}
+.imgContainer:hover {
+  background-size: 150%;
+  cursor: zoom-in;
+}
+.boxDetails {
+  max-width: 330px;
+  width: 100%;
+  margin: 20px;
+}
+.counterContainer {
+  border: 2px solid gray;
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+.btnPlus {
+  font-size: 20px;
+  padding: 3px 12px;
+  background-color: inherit;
+}
+.quantity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btnLess {
+  font-size: 20px;
+  padding: 3px 12px;
+  background-color: inherit;
+}
+.infoProduct {
+  font-weight: 600;
+  margin-top: 20px;
+  color: rgb(255, 255, 255);
+}
+.addCart {
+  width: 327px;
+  height: 48px;
+  border-radius: 56px;
+  background-color: rgb(233, 20, 180);
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+}
+
+@media (max-width: 860px) {
+  .details {
+    padding: 0;
+  }
+  .boxDetails {
+    max-width: 530px;
+  }
+  .imgContainer {
+    max-width: 530px;
+    height: 350px;
+    background-size: contain;
+    margin-right: 0;
+  }
+  .containerAddCart {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Small (sm) */
+@media (max-width: 640px) {
+  .boxDetails {
+    max-width: 100%;
+  }
+  .addCart {
+    max-width: 300px;
+    font-size: 12px;
+  }
+  .imgContainer {
+    max-width: 100%;
+    height: 300px;
+  }
+  .brand{
+      font-size: 14px;
+  }
+  .name{
+    font-size: 22px;
+  }
+  .price{
+    font-size: 16px;
+  }
+  .description{
+      font-size: 14px;
+  }
+}
