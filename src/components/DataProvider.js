@@ -6,7 +6,6 @@ import societyshirtblue from "../images/CATEGORIAILUSTRADA/societyshirt/societys
 import societyshirtwhite from "../images/CATEGORIAILUSTRADA/societyshirt/societyshirtwhite.png";
 import societyshirtyellow from "../images/CATEGORIAILUSTRADA/societyshirt/societyshirtyellow.png";
 
-
 import happyFaceNegra from "../images/happyFaceNegra.png";
 import sexyPeachNegra from "../images/sexyPeachNegra.png";
 import sourFlavorJuiceNegra from "../images/sourFlavorJuiceNegra.png";
@@ -20,11 +19,12 @@ import tvNoSignalAzul from "../images/tvNoSignalAzul.png";
 import cityComptonAzul from "../images/cityComptonAzul.png";
 import happyFaceAzul from "../images/happyFaceAzul.png";
 
+
 export const DataContext = createContext();
 export const DataProvider = (props) => {
   const [products, setproducts] = useState([
     {
-      id: 1.1,
+      id: 1,
       name: "Society Shirt Red",
       price: 35000,
       color: "Red",
@@ -40,7 +40,7 @@ export const DataProvider = (props) => {
       count: 1
     },
     {
-      id: 1.2,
+      id: 2,
       name: "Society Shirt Black",
       price: 35000,
       color: "Negra",
@@ -56,7 +56,7 @@ export const DataProvider = (props) => {
       count: 1
     },
     {
-      id: 1.3,
+      id: 3,
       name: "Society Shirt Blue",
       price: 35000,
       color: "Azul",
@@ -72,7 +72,7 @@ export const DataProvider = (props) => {
       count: 1
     },
     {
-      id: 1.4,
+      id: 4,
       name: "Society Shirt White",
       price: 35000,
       color: "Blanco",
@@ -88,7 +88,7 @@ export const DataProvider = (props) => {
       count: 1
     },
     {
-      id: 1.5,
+      id: 5,
       name: "Society Shirt Yellow",
       price: 35000,
       color: "Amarillo",
